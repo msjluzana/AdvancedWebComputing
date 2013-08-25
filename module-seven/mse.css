@@ -1,0 +1,106 @@
+body{
+			background:url('tix.jpg');
+			background-size: 1350px;
+			height:100%;
+			max-width:100%;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+
+		}
+footer{
+			font-family:"Verdana", verdana, sans-serif;
+			font-size: 15px;
+			padding-top:10px;
+			text-align: center;
+			position:fixed;
+			left:0;
+			right:0;
+			bottom:0;
+			height:30px;
+			width:100%;
+			border-top:2px solid rgba(0,0,0,0.3);
+			background:rgba(0,0,0,0,0.25);
+			box-shadow: inset 0 1px rgba(255,255,255,0.3),
+						inset 0 10px rgba(255,255,255,0.2),
+						inset 0 10px 20px rgba(255,255,255,0.25),
+						inset 0 -15px 30px rgba(0,0,0,0.3);
+		}
+
+
+h1{
+	font-family:'Corben', Georgia, Times, serif;
+	text-align: center;
+	color: #45A8DF;
+	line-height:50px;
+	font-size:100px;
+
+}
+
+h2{
+	font-family: 'Molengo', Georgia, Times, serif;
+	text-align: center;
+	color: red;
+	line-height:10px;
+	font-size:30px;
+
+}	
+
+h3{
+	font-family: 'Molengo', Georgia, Times, serif;
+	text-align: center;
+	color: red;
+	line-height:5px;
+	font-size:18px;
+
+}	
+
+h4{
+	
+	float:center;
+	color: red;
+	line-height:10px;
+	font-size:15px;
+	height: 100px;
+	width: 150px;
+
+}	
+
+h5{
+	font-family: 'Arial', Arial, serif;
+	text-align: center;
+	color: black;
+	line-height:18px;
+	font-size:15px;
+	max-width: 50%;
+	margin-left: 330px;
+	
+
+}
+
+.box{
+	margin-left: 635px;
+}
+
+
+#searchForm{
+	/* The search form. */
+	background-color:#4C5A65;
+	padding:50px 50px 30px;
+	margin:80px 0;
+	position:relative;
+
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+}
+
+
+.search_input{
+margin-left:500px;
+float:center;
+text-align: center;
+color:fff;
+height:30px;
+width:300px;
+
+}
