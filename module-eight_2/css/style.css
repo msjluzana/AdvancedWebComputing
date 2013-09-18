@@ -1,0 +1,84 @@
+footer{
+	display: block;
+}
+
+#main_footer{
+	background: rgba(176,226,255,0.5);
+	border-top: 1px solid rgba(0,0,0,0.3);
+	bottom: 0px;
+	box-shadow: 0px -2px 5px rgba(0,0,0,0.7),
+				inset 0px 1px rgba(255,255,255,0.5),
+				inset 0px 10px rgba(255,255,255,0.4),
+				inset 0px 10px 30px rgba(255,255,255,0.4),
+				inset 0px -15px 30px rgba(0,0,0,0.4);
+	left: 0px;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	text-shadow: 1px 1px 1px white;
+	width:100%;
+	-webkit-transition: background 1s;
+}
+body{
+	height: auto;
+}
+
+.nav{
+	margin: 0px 30px;
+}
+
+.form-control{
+	width: 400px;
+}
+
+.links{
+	margin: 0px 30px;
+	padding-left: 5px;
+
+}
+
+.links li:hover{
+	display: block;
+	color: red;
+}
+
+.result{
+	margin: 100px 10px 100px 200px;
+	}
+
+.col-md-3{
+	width: 33%;
+	min-height: 60%;
+	max-height: 65%;
+}
+
+
+.thumbnail > img{
+	width: 120px;
+	height: 150px;
+	
+}
+
+.thumbnail > .caption > h1{
+	font-family: sans-serif, helvetica;
+	font-size: 16px;
+
+
+}
+
+.btn-xs{
+	float: right;
+}
+
+.rate_audience{
+	margin-bottom: 8px;
+}
+.rate_audience > span{
+	font-size: 14px;
+
+}
+
+.rate_critics > span{
+	font-size: 14px;
+}
+
